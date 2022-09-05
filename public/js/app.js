@@ -19531,10 +19531,7 @@ __webpack_require__.r(__webpack_exports__);
       message: "Hello World"
     };
   },
-  methods: function methods() {},
-  components: {
-    Todo: Todo
-  }
+  methods: function methods() {}
 });
 
 /***/ }),
@@ -19566,99 +19563,12 @@ var _hoisted_3 = {
   "class": "card-body"
 };
 var _hoisted_4 = ["textContent"];
-var _hoisted_5 = {
-  "class": "card"
-};
-
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "card-header"
-}, " Form Card ", -1
-/* HOISTED */
-);
-
-var _hoisted_7 = {
-  "class": "card-body"
-};
-var _hoisted_8 = {
-  "class": "form-group"
-};
-
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
-  "for": "name"
-}, "Name", -1
-/* HOISTED */
-);
-
-var _hoisted_10 = ["model"];
-var _hoisted_11 = {
-  "class": "form-group"
-};
-
-var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
-  "for": "name"
-}, "Email", -1
-/* HOISTED */
-);
-
-var _hoisted_13 = ["model"];
-var _hoisted_14 = {
-  "class": "form-group"
-};
-
-var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
-  "for": "name"
-}, "Password", -1
-/* HOISTED */
-);
-
-var _hoisted_16 = ["model"];
-var _hoisted_17 = {
-  "class": "form-group"
-};
-
-var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
-  "for": "name"
-}, "Email", -1
-/* HOISTED */
-);
-
-var _hoisted_19 = ["model"];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
     textContent: (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.message)
   }, null, 8
   /* PROPS */
-  , _hoisted_4)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [_hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [_hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
-    type: "text",
-    model: _ctx.name,
-    placeholder: "Type Your Name...",
-    "class": "form-control"
-  }, null, 8
-  /* PROPS */
-  , _hoisted_10)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [_hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
-    type: "email",
-    model: _ctx.email,
-    placeholder: "Type Your E-mail...",
-    "class": "form-control"
-  }, null, 8
-  /* PROPS */
-  , _hoisted_13)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [_hoisted_15, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
-    type: "password",
-    model: _ctx.password,
-    placeholder: "Type Password...",
-    "class": "form-control"
-  }, null, 8
-  /* PROPS */
-  , _hoisted_16)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [_hoisted_18, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
-    type: "password",
-    model: _ctx.confirm - _ctx.password,
-    placeholder: "Type Password...",
-    "class": "form-control"
-  }, null, 8
-  /* PROPS */
-  , _hoisted_19)])])])])], 64
-  /* STABLE_FRAGMENT */
-  );
+  , _hoisted_4)])]);
 }
 
 /***/ }),

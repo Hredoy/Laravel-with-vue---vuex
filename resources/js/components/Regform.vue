@@ -1,13 +1,4 @@
 <template>
-
-<div class="card">
-    <div class="card-header">
-        Basic Card
-    </div>
-    <div class="card-body">
-        <h1 v-text="message"></h1>
-    </div>
-</div>
 <div class="card">
     <div class="card-header">
         Form Card
@@ -47,8 +38,7 @@ export default {
         };
     },
     methods() {
-    },
-    components: { Todo }
+    }
 };
 </script>
 
